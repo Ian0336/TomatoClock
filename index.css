@@ -1,0 +1,38 @@
+input {
+    width: 8%;
+    height: 50px;
+    font-size: 50px;
+    padding:10px 15px; background:rgb(220, 216, 216); border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  body{
+    font-size: 50px;
+  }
+  .btn{
+    color: rgb(239, 240, 240);
+    font-size: 15px;
+    padding:10px 10px; background:rgb(80, 78, 78); border:0 none;
+    border-radius: 5px;
+    
+  }
+  .time{
+    color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    background:rgb(10, 8, 8);
+   
+  }
+  .app {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  
+  .btn:hover{
+    background-color: rgb(120, 123, 123);
+  }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ch-hang-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./tomato.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./tomato.ico" type="image/x-icon" />
+    <title>蕃茄鐘</title>
+  </head>
+  <body>
+    <audio autoplay muted loop id="playAudio">
+      <source src="./alert.mp3" />
+    </audio>
+    讀書時間：<input type="number" value="25" id="study" />分
+    <div></div>
+    休息時間：<input type="number" value="5" id="rest" />分
+    <button id="comfirm" class="btn">設置</button>
+    <button id="ok" class="btn">ok</button>
+    <div id="time" class="time"></div>
+    <div id="img"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
